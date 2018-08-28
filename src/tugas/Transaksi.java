@@ -18,6 +18,11 @@ public class Transaksi extends Pembeli{
         this.total = total;
     }
     
+    public void setHarhabarang(int harga_barang){
+        int hrg = harga_barang; 
+    }
+    
+    
     public void outputtt(){
         super.outputt();
         System.out.println();
@@ -26,16 +31,19 @@ public class Transaksi extends Pembeli{
         System.out.println("Id_Buku     : "+this.id_barang);
         System.out.println("Merk Buku   : "+this.merk_barang);
         System.out.println("Nama Buku   : "+this.nama_barang);
+        System.out.println("Kuantitas     : "+this.kuantitas);
         System.out.println("Harga Buku  : "+this.harga_barang);
         System.out.println("Id_pembeli  : "+this.id_pembeli);
         System.out.println("Nama_pembeli: "+this.nama_pembeli);
         System.out.println("Alamat      : "+this.alamat);
         System.out.println("No Telpon   : "+this.no_telp);
-        System.out.println("Total       : "+this.harga_barang);
+        System.out.println();
+        System.out.println("Total       : "+((this.harga_barang)*(this.kuantitas)));
         
         
         
     }
+    
     
     
 }

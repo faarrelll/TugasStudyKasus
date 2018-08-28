@@ -15,8 +15,10 @@ public class Uji {
     public static void main(String[] args) {
         Scanner masukan = new Scanner(System.in);
         Transaksi uji = new Transaksi(0,0,"","",0,"","","",0);
-        System.out.println("Kasir = Admin 1");
-        System.out.println("Tagnggal = 28 Agustus 2018");
+        System.out.println("    'Toko Buku Berhadiah'");
+        System.out.println();
+        System.out.println("Kasir    = Admin 1");
+        System.out.println("Tanggal  = 28 Agustus 2018");
         System.out.println();
         System.out.println();
         System.out.println();
@@ -33,8 +35,10 @@ public class Uji {
             switch (bil)
         {
             case 1 :  uji.outputtt();
-                 break;
-            case 2 :  System.out.println("Terima Kasih...");
+                 break; 
+            case 2 :  
+                System.out.println();
+                System.out.println("Terima Kasih...");
               break;
         }
             

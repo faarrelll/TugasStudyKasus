@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Toko {
 
-    public int id_barang,harga_barang;
+    public int id_barang,harga_barang,kuantitas;
     public String nama_barang,merk_barang;
     
     public Toko(int id_barang, int harga_barang, String nama_barang,String merk_barang){
@@ -32,6 +32,8 @@ public class Toko {
         this.merk_barang = masukan.next();
         System.out.print("Nama Buku  : ");
         this.nama_barang = masukan.next();
+        System.out.print("Kuantitas  : ");
+        this.kuantitas = masukan.nextInt();
         System.out.print("Harga Buku : ");
         this.harga_barang = masukan.nextInt();
         
