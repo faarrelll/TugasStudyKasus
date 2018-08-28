@@ -23,10 +23,10 @@ public class Transaksi extends Pembeli{
         System.out.println();
         System.out.println("----------------------");
         System.out.println();
-        System.out.println("Id_barang   : "+this.id_barang);
-        System.out.println("Merk barang : "+this.merk_barang);
-        System.out.println("Nama Barang : "+this.nama_barang);
-        System.out.println("Harga       : "+this.harga_barang);
+        System.out.println("Id_Buku     : "+this.id_barang);
+        System.out.println("Merk Buku   : "+this.merk_barang);
+        System.out.println("Nama Buku   : "+this.nama_barang);
+        System.out.println("Harga Buku  : "+this.harga_barang);
         System.out.println("Id_pembeli  : "+this.id_pembeli);
         System.out.println("Nama_pembeli: "+this.nama_pembeli);
         System.out.println("Alamat      : "+this.alamat);

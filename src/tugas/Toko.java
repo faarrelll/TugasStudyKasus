@@ -26,13 +26,13 @@ public class Toko {
     
     public void output(){
         Scanner masukan = new Scanner(System.in);
-        System.out.print("Id_barang   : ");
+        System.out.print("Id_buku    : ");
         this.id_barang = masukan.nextInt();
-        System.out.print("Merk barang : ");
+        System.out.print("Merk Buku  : ");
         this.merk_barang = masukan.next();
-        System.out.print("Nama Barang : ");
+        System.out.print("Nama Buku  : ");
         this.nama_barang = masukan.next();
-        System.out.print("Harga       : ");
+        System.out.print("Harga Buku : ");
         this.harga_barang = masukan.nextInt();
         
         

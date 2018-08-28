@@ -30,13 +30,13 @@ public class Pembeli extends Toko {
         System.out.println();
         System.out.println("----------------------");
         System.out.println();
-        System.out.print("Id_pembeli : ");
+        System.out.print("Id_pembeli    : ");
         this.id_pembeli = masukan.nextInt();
-        System.out.print("Nama_pembeli : ");
+        System.out.print("Nama_pembeli  : ");
         this.nama_pembeli = masukan.next();
-        System.out.print("Alamat : ");
+        System.out.print("Alamat        : ");
         this.alamat = masukan.next();
-        System.out.print("No Telpon : ");
+        System.out.print("No Telpon     : ");
         this.no_telp = masukan.next();
         
         
