@@ -34,7 +34,7 @@ public class Toko {
         this.nama_barang = masukan.next();
         System.out.print("Kuantitas  : ");
         this.kuantitas = masukan.nextInt();
-        System.out.print("Harga Buku :Rp.  ");
+        System.out.print("Harga Buku :Rp.");
         this.harga_barang = masukan.nextInt();
         
         
