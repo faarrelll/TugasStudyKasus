@@ -14,11 +14,15 @@ import java.util.Scanner;
 public class Uji {
     public static void main(String[] args) {
         Scanner masukan = new Scanner(System.in);
+        String kasir;
         Transaksi uji = new Transaksi(0,0,"","",0,"","","",0);
+        Tanggal tgl = new Tanggal();
         System.out.println("    'Toko Buku Berhadiah'");
         System.out.println();
-        System.out.println("Kasir    = Admin 1");
-        System.out.println("Tanggal  = 28 Agustus 2018");
+        System.out.print("Kasir    = ");
+        kasir = masukan.next();
+        System.out.println("Tanggal Pembelian  = "+tgl.getTanggal());
+        System.out.println("Waktu Pembelian    = "+tgl.getTanggal());
         System.out.println();
         System.out.println();
         System.out.println();
