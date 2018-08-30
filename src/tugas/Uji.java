@@ -22,7 +22,7 @@ public class Uji {
         System.out.print("Kasir    = ");
         kasir = masukan.next();
         System.out.println("Tanggal Pembelian  = "+tgl.getTanggal());
-        System.out.println("Waktu Pembelian    = "+tgl.getTanggal());
+        System.out.println("Waktu Pembelian    = "+tgl.getWaktu());
         System.out.println();
         System.out.println();
         System.out.println();
